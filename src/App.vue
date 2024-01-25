@@ -16,6 +16,6 @@ import ThemeToggleButton from "./components/ThemeToggleButton.vue";
 </script>
 <style scoped>
 nav a {
-  @apply my-auto px-8;
+  margin: auto;
 }
 </style>

@@ -24,13 +24,6 @@ p {
   @apply text-base;
 }
 
-a {
-  @apply font-medium;
-}
-a:hover {
-  @apply text-blue-500;
-}
-
 body {
   @apply m-0 flex justify-center items-center min-w-[320px] min-h-screen;
 }
@@ -50,8 +43,14 @@ body {
 .dark a {
   @apply text-blue-300;
 }
+.dark a:hover {
+  @apply text-blue-500;
+}
 .light a {
   @apply text-blue-700;
+}
+.light a:hover {
+  @apply text-blue-500;
 }
 
 .dark h1,

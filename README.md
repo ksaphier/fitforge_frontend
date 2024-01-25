@@ -1,18 +1,62 @@
-# Vue 3 + TypeScript + Vite
+# FitForge Frontend
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Welcome to the frontend repository of FitForge, a web application dedicated to creating and managing workout routines for gym enthusiasts. This part of the application is built using `Vue.js` and `TypeScript`, offering a modern, responsive, and user-friendly interface.
 
-## Recommended IDE Setup
+## Getting Started
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+These instructions will guide you through getting a copy of FitForge's frontend up and running on your local machine for development and testing purposes. Follow these steps to set up your development environment.
 
-## Type Support For `.vue` Imports in TS
+### Prerequisites
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Before you begin, ensure you have the following installed:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+### Installation
+
+To get your development environment running:
+
+1. Clone the FitForge frontend repository:
+   ```bash
+   git clone https://github.com/ksaphier/fitforge_frontend.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd fitforge_frontend
+   ```
+
+3. Install the required dependencies using Yarn:
+
+   ```bash
+   yarn install
+   ```
+
+   After following these steps, you'll have a local copy of the project ready for development and testing.
+
+## Running the Application
+
+After installing all the necessary dependencies, you can run the FitForge frontend in development mode. Here's how you can start the application:
+
+1. To run the development server, use the following Yarn command:
+   ```bash
+   yarn dev
+   ```
+2. Once the server starts, the application should be available at http://localhost:5173 by default.
+
+3. Open your browser and navigate to http://localhost:5173 to view the application.
+
+This will launch the FitForge frontend in a development environment with hot-reloading enabled, meaning any changes you make to the source code will be immediately reflected in the browser.
+
+## Built With
+
+The FitForge frontend is built with a combination of modern technologies and frameworks to ensure a robust and efficient user experience. Here's a list of the major components:
+
+- [Vue.js](https://vuejs.org/) - An approachable, performant, and versatile framework for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript, enhancing code quality and understandability.
+- [Vite](https://vitejs.dev/) - A build tool that significantly improves the frontend development experience.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapidly building custom designs.
+- [Yarn](https://yarnpkg.com/) - Fast, reliable, and secure dependency management.
+
+These tools and frameworks were chosen to provide an efficient, scalable, and developer-friendly environment for building the FitForge frontend.
